@@ -36,6 +36,7 @@
   border: none;
   border-radius: 5px;
   transition: all 0.5s;
+  align-self: center;
 }
 
 .personalInfo header button:hover {
@@ -60,6 +61,7 @@ form input {
 }
 
 .info {
+  border: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
@@ -67,6 +69,7 @@ form input {
 }
 
 .action {
+  border: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
@@ -94,6 +97,15 @@ form input {
 
 .formOpen {
   height: 300px;
-  padding: 20px 0;
+  padding: 20px;
 }
 
+@media ( max-width: 700px) {
+  .formOpen {
+    height: 400px;
+    padding: 10px;
+  }
+  .info {
+    grid-template-columns: 1fr;
+  }
+}
