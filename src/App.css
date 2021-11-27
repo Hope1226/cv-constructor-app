@@ -1,1 +1,99 @@
+.App {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+  background: #e6ece2;
+  border-radius: 5px;
+}
+
+.personalInfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+}
+
+.personalInfo header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted black;
+  padding: 10px 0;
+  color: #303516;
+}
+
+.personalInfo header h1 {
+  color: #303516;
+}
+
+.personalInfo header button {
+  background: #303516;
+  color: #e6ece2;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.personalInfo header button:hover {
+  background: #899f70;
+  color: #303516;
+}
+
+form {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+
+form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0 #303516;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  align-items: start;
+}
+
+.action {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.action button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #e6ece2;
+}
+
+.action button[type="submit"] {
+  justify-self: end;
+  background: #303516;
+}
+
+.action button[type="button"] {
+  justify-self: start;
+  background: tomato;
+ 
+}
+
+.formOpen {
+  height: 300px;
+  padding: 20px 0;
+}
 
