@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cv-constructor-app/static/css/main.a4d78b74.chunk.css",
+    "main.js": "/cv-constructor-app/static/js/main.7f331144.chunk.js",
+    "main.js.map": "/cv-constructor-app/static/js/main.7f331144.chunk.js.map",
+    "runtime-main.js": "/cv-constructor-app/static/js/runtime-main.74e38eb6.js",
+    "runtime-main.js.map": "/cv-constructor-app/static/js/runtime-main.74e38eb6.js.map",
+    "static/js/2.5ec46576.chunk.js": "/cv-constructor-app/static/js/2.5ec46576.chunk.js",
+    "static/js/2.5ec46576.chunk.js.map": "/cv-constructor-app/static/js/2.5ec46576.chunk.js.map",
+    "static/js/3.4a935c2e.chunk.js": "/cv-constructor-app/static/js/3.4a935c2e.chunk.js",
+    "static/js/3.4a935c2e.chunk.js.map": "/cv-constructor-app/static/js/3.4a935c2e.chunk.js.map",
+    "index.html": "/cv-constructor-app/index.html",
+    "static/css/main.a4d78b74.chunk.css.map": "/cv-constructor-app/static/css/main.a4d78b74.chunk.css.map",
+    "static/js/2.5ec46576.chunk.js.LICENSE.txt": "/cv-constructor-app/static/js/2.5ec46576.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74e38eb6.js",
+    "static/js/2.5ec46576.chunk.js",
+    "static/css/main.a4d78b74.chunk.css",
+    "static/js/main.7f331144.chunk.js"
+  ]
+}
